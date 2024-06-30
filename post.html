@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Socialize : Home Page </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/post.css">
+
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav class="navbar">
+        <img src="img/logo.png" class="logo" alt="">
+        <form class="search-box">
+            <input type="text" placeholder="Search" name="search-query" id="search-input">
+            <button class="search-btn" type="submit"> <img src="img/icon/search.png" class="search-icon"> </button>
+        </form>
+        <div class = "nav-links">
+            <a href="#" class="nav-links"> <img src="img/icon/home-nofill.png" class="nav-icon" alt=""></a>
+            <div class="activity-log">
+                <img src="img/icon/heart-nofill.png" class="nav-icon" alt=""></a>
+                <div class="activity-container hide">
+                    <div class="activity-card">
+                        <img src="img/user1.png" class="user-img" alt="">
+                        <p class="activity"> <b>@vinkal</b> liked your post </p>
+                        <img src="img/posts/post1.png" class="activity-post" alt="">
+                    </div>
+                    <div class="activity-card">
+                        <img src="img/user2.png" class="user-img" alt="">
+                        <p class="activity"> <b>@lokesh</b> liked your post </p>
+                        <img src="img/posts/post2.png" class="activity-post" alt="">
+                    </div>
+                    <div class="activity-card">
+                        <img src="img/user3.png" class="user-img" alt="">
+                        <p class="activity"> <b>@ankush</b> liked your post </p>
+                        <img src="img/posts/post3.png" class="activity-post" alt="">
+                    </div>
+                    <div class="activity-card">
+                        <img src="img/user4.png" class="user-img" alt="">
+                        <p class="activity"> <b>@abhishek</b> liked your post </p>
+                        <img src="img/posts/post4.png" class="activity-post" alt="">
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="nav-links"> <img src="img/icon/add-nofill.png" class="nav-icon" alt=""></a>
+            <a href="#" class="nav-links"> <img src="img/profile-img.png" class="nav-icon user-profile" alt=""></a>
+        </div>
+    </nav>
+
+    <div class="post">
+        <div class="post-feed">
+            <div class="post-overlays">
+                <img src="img/icon/red-heart.png" class="like-icon" alt="">
+                <div class="share-window"> 
+                    <h1 class="title"> share the post with others </h1>
+                    <div class="share-link-container">
+                        <input type="text" id="share-link" value="https://www.Socialize.com/post/123456789012" disabled >
+                        <button class="copy-btn"> copy </button>
+                    </div>
+                </div>
+            </div>
+            <div class="post-img-container">
+                <img src="img/posts/post2.png" alt="">
+            </div>
+        </div>
+        
+        <div class="feed">
+            <div class="post-header">
+                <img src="img/user2.png" class="user-icon" alt="">
+                <p class="username">@lokesh</p>
+            </div>
+            <div class="post-detail">
+                <div class="detail-intracables">
+                    <img src="img/icon/heart-nofill.png" class="like-btn" alt="">
+                    <img src="img/icon/send-nofill.png" class="send-btn" alt="">
+                    <img src="img/icon/comment-nofill.png" class="comment-btn" alt="">
+                </div>
+                <span class="likes"> 53.7k likes </span>
+                <p class="username"><b>@lokesh</b></p>
+                <p class="post-des"> "Chasing adrenaline in every curve. 🏎️💨 Unleashing the beast on the asphalt, where power meets passion. #SpeedDemon #SportsCarDreams #BornToRace" </p>
+                
+
+                <div class="comment-container">
+                    <div class="comment-card">
+                        <img src="img/user1.png" class="user-dp" alt="">
+                        <div class="comment-body">
+                            <span class="username"> @vinkal </span>
+                            <p class="comment"> This is Amazing🔥 </p>
+                        </div>
+                        <div class="comment-card">
+                            <img src="img/user2.png" class="user-dp" alt="">
+                            <div class="comment-body">
+                                <span class="username"> @lokesh </span>
+                                <p class="comment"> This is Amazing🔥 </p>
+                            </div>
+                        </div>
+                        <div class="comment-card">
+                            <img src="img/user3.png" class="user-dp" alt="">
+                            <div class="comment-body">
+                                <span class="username"> @ankush </span>
+                                <p class="comment"> This is Amazing🔥 </p>
+                            </div>
+                        </div>
+                        <div class="comment-card">
+                            <img src="img/user4.png" class="user-dp" alt="">
+                            <div class="comment-body">
+                                <span class="username"> @abhishek </span>
+                                <p class="comment"> This is Amazing🔥 </p>
+                            </div>
+                        </div>
+                        <div class="comment-card">
+                            <img src="img/user5.png" class="user-dp" alt="">
+                            <div class="comment-body">
+                                <span class="username"> @kunal </span>
+                                <p class="comment"> This is Amazing🔥 </p>
+                            </div>
+                        </div>
+                        <div class="comment-card">
+                            <img src="img/user6.png" class="user-dp" alt="">
+                            <div class="comment-body">
+                                <span class="username"> @alvin </span>
+                                <p class="comment"> This is Amazing🔥 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment-box">
+                    <input type="text" id="comment-input" placeholder="Add a comment">
+                    <button class="add-comment-btn"><img src="img/icon/comment-nofill.png" alt=""></button>
+                </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/post.js"></script>
+
+</body>
+</html>
